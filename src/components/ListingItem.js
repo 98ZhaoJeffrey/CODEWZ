@@ -28,7 +28,8 @@ const ListingItem = (props) => {
             <CardMedia
                 component="img"
                 src={props.img ? props.img : DEFAULT_PHOTO}
-                width="20%"
+                width="100%"
+                height="100%"
                 objectFit="cover"
                 alt={`Image for ${props.name}`}
             />

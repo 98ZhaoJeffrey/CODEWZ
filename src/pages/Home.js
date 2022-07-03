@@ -46,7 +46,7 @@ const Home = () => {
                                 <ListingItem
                                     name={listing.name}
                                     img={listing.image}
-                                    about={listing.name}
+                                    about={listing.about}
                                     id={listing.id}
                                 />
                             </Grid>
